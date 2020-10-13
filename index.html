@@ -2,11 +2,30 @@
 <html lang="en" dir="ltr">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="assets/style.css">
         <title>Biglietto Treno</title>
     </head>
     <body>
-
+        <div class="jumbotron">
+            <h1 class="display-4">
+                Costo Biglietto Treno
+            </h1>
+            <p class="lead">
+                Il prezzo del biglietto è di 0.21/km.
+            </p>
+            <p class="lead">
+                Per le persone di età inferiore ai 18 anni sarà applicato uno sconto del 20%.
+            </p>
+            <p class="lead">
+                Per le persone Over 65 sarà applicato uno sconto del 40%.
+            </p>
+            <hr class="my-4">
+            <p>Costo Biglietto:
+                <span id="costoBigliettoTotale"> </span>$
+            </p>
+            <button type="button" class="btn btn-success">Acquista Biglietto</button>
+        </div>
 
         <script src="assets/main.js" charset="utf-8"></script>
     </body>
